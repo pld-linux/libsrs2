@@ -14,20 +14,22 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Libsrs2 is the next generation SRS library from the original designer of SRS.
-It implements the Sender Rewriting Scheme, a part of the SPF/SRS protocol pair.
-Libsrs2 has been written from an entirely clean codebase with compliance, speed
-and versatility in mind. It is platform independent and has no external
-dependencies. It is thread-safe and heap-safe, and is suitable for large scale
-applications and embedded systems and can operate without many standard system
-facilities.
+Libsrs2 is the next generation SRS library from the original designer
+of SRS. It implements the Sender Rewriting Scheme, a part of the
+SPF/SRS protocol pair. Libsrs2 has been written from an entirely clean
+codebase with compliance, speed and versatility in mind. It is
+platform independent and has no external dependencies. It is
+thread-safe and heap-safe, and is suitable for large scale
+applications and embedded systems and can operate without many
+standard system facilities.
 
 %description -l pl
-Libsrs2 jest bibliotek± SRS nowej generacji. Implementuje Sender Rewriting Scheme,
-czê¶æ pary protoko³ów SPF/SRS. Libsrs2 zosta³a napisana od zera z my¶l± o zgodno¶ci,
-szybko¶ci i uniwersalno¶ci. Jest niezale¿na od platformy i nie ma zewnêtrznych
-zale¿no¶ci. Nadaje siê do u¿ytku w programach wielow±tkowych, jest bezpieczna
-dla stosu, jest odpowidnia tak dla systemów du¿ych jak i wbudowanych.
+Libsrs2 jest bibliotek± SRS nowej generacji. Implementuje Sender
+Rewriting Scheme, czê¶æ pary protoko³ów SPF/SRS. Libsrs2 zosta³a
+napisana od zera z my¶l± o zgodno¶ci, szybko¶ci i uniwersalno¶ci. Jest
+niezale¿na od platformy i nie ma zewnêtrznych zale¿no¶ci. Nadaje siê
+do u¿ytku w programach wielow±tkowych, jest bezpieczna dla stosu, jest
+odpowiednia tak dla systemów du¿ych jak i wbudowanych.
 
 %package devel
 Summary:	Header files for libsrs2 library
