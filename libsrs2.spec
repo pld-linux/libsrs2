@@ -1,5 +1,5 @@
 Summary:	Next generation SRS library
-Summary(pl):	Biblioteka SRS nowej generacji
+Summary(pl.UTF-8):   Biblioteka SRS nowej generacji
 Name:		libsrs2
 Version:	1.0.17
 Release:	1
@@ -23,36 +23,36 @@ thread-safe and heap-safe, and is suitable for large scale
 applications and embedded systems and can operate without many
 standard system facilities.
 
-%description -l pl
-Libsrs2 jest bibliotek± SRS nowej generacji. Implementuje Sender
-Rewriting Scheme, czÍ∂Ê pary protoko≥Ûw SPF/SRS. Libsrs2 zosta≥a
-napisana od zera z my∂l± o zgodno∂ci, szybko∂ci i uniwersalno∂ci. Jest
-niezaleøna od platformy i nie ma zewnÍtrznych zaleøno∂ci. Nadaje siÍ
-do uøytku w programach wielow±tkowych, jest bezpieczna dla stosu, jest
-odpowiednia tak dla systemÛw duøych jak i wbudowanych.
+%description -l pl.UTF-8
+Libsrs2 jest bibliotekƒÖ SRS nowej generacji. Implementuje Sender
+Rewriting Scheme, czƒô≈õƒá pary protoko≈Ç√≥w SPF/SRS. Libsrs2 zosta≈Ça
+napisana od zera z my≈õlƒÖ o zgodno≈õci, szybko≈õci i uniwersalno≈õci. Jest
+niezale≈ºna od platformy i nie ma zewnƒôtrznych zale≈ºno≈õci. Nadaje siƒô
+do u≈ºytku w programach wielowƒÖtkowych, jest bezpieczna dla stosu, jest
+odpowiednia tak dla system√≥w du≈ºych jak i wbudowanych.
 
 %package devel
 Summary:	Header files for libsrs2 library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libsrs2
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libsrs2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libsrs2 library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libsrs2.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libsrs2.
 
 %package static
 Summary:	Static libsrs2 library
-Summary(pl):	Statyczna biblioteka libsrs2
+Summary(pl.UTF-8):   Statyczna biblioteka libsrs2
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libsrs2 library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libsrs2.
 
 %prep
