@@ -1,5 +1,5 @@
 Summary:	Next generation SRS library
-Summary(pl.UTF-8):   Biblioteka SRS nowej generacji
+Summary(pl.UTF-8):	Biblioteka SRS nowej generacji
 Name:		libsrs2
 Version:	1.0.17
 Release:	1
@@ -33,7 +33,7 @@ odpowiednia tak dla systemów dużych jak i wbudowanych.
 
 %package devel
 Summary:	Header files for libsrs2 library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libsrs2
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libsrs2
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -45,7 +45,7 @@ Pliki nagłówkowe biblioteki libsrs2.
 
 %package static
 Summary:	Static libsrs2 library
-Summary(pl.UTF-8):   Statyczna biblioteka libsrs2
+Summary(pl.UTF-8):	Statyczna biblioteka libsrs2
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
