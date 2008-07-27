@@ -2,7 +2,7 @@ Summary:	Next generation SRS library
 Summary(pl.UTF-8):	Biblioteka SRS nowej generacji
 Name:		libsrs2
 Version:	1.0.17
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://www.libsrs2.org/srs/%{name}-%{version}.tar.gz
