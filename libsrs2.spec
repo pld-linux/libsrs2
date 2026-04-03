@@ -1,13 +1,13 @@
 Summary:	Next generation SRS library
 Summary(pl.UTF-8):	Biblioteka SRS nowej generacji
 Name:		libsrs2
-Version:	1.0.17
+Version:	1.0.18
 Release:	2
-License:	GPL
+License:	GPL v2 or BSD
 Group:		Libraries
-Source0:	http://www.libsrs2.org/srs/%{name}-%{version}.tar.gz
-# Source0-md5:	6c2384e1ef1448777d7e72f98e449423
-URL:		http://srs.mirtol.com/
+Source0:	https://www.libsrs2.net/srs/%{name}-%{version}.tar.gz
+# Source0-md5:	2178b8cf587eb6e65d4b9753c4a6c67d
+URL:		http://www.libsrs2.net/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
 BuildRequires:	libtool
@@ -78,11 +78,12 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README
 %attr(755,root,root) %{_bindir}/*
-%attr(755,root,root) %{_libdir}/lib*.so.*.*
+%attr(755,root,root) %{_libdir}/libsrs2.so.*.*.*
+%{_libdir}/libsrs2.so.0
 
 %files devel
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_libdir}/lib*.so
+%{_libdir}/libsrs2.so
 %{_libdir}/lib*.la
 %{_includedir}/*.h
 
